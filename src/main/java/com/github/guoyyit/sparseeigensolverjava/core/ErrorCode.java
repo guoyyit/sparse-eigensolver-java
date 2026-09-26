@@ -1,0 +1,28 @@
+package com.github.guoyyit.sparseeigensolverjava.core;
+
+/** Enumeration of all error codes returned by the service. */
+public enum ErrorCode {
+    INVALID_DIMENSION,
+    INVALID_POINTER,
+    DUPLICATE_INDEX,
+    INDEX_OUT_OF_RANGE,
+    NON_FINITE_VALUE,
+    NON_SYMMETRIC_UPPER_TRIANGLE,
+    INVALID_NEV,
+    INVALID_TOLERANCE,
+    INVALID_MAX_ITERATIONS,
+    INVALID_INTERVAL,
+    INVALID_CONFIG,
+    INVALID_SEED,
+    MATRIX_TOO_LARGE,
+    RESOURCE_LIMIT,
+    TIME_LIMIT_EXCEEDED,
+    CANCELLED,
+    NOT_CONVERGED,
+    NUMERICAL_BREAKDOWN,
+    SNAPSHOT_CORRUPT,
+    SNAPSHOT_MISMATCH,
+    JOB_NOT_FOUND,
+    JOB_ALREADY_EXISTS,
+    INTERNAL_ERROR
+}
